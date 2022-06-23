@@ -52,6 +52,10 @@
   "devDependencies": {
     "nodemon": "^2.0.16"
   },
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.10.0"
+  },
   "main": "index.js",
   "repository": "https://github.com/wsm-react/disaster-management.git",
   "author": "Arun Kumar Gupta <arun99178@gmail.com>",
