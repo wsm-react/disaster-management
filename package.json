@@ -17,6 +17,7 @@
     "client": "cd frontend && react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d start",
+    "git": " git add . && git commit -m \"update pkg-lock\" && git push",
     "server-with-client": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "eslintConfig": {
