@@ -30,6 +30,8 @@
     "server": "node backend/bin/www",
     "dev": "nodemon backend/app.js",
     "client": "cd frontend && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server-with-client": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "eslintConfig": {
